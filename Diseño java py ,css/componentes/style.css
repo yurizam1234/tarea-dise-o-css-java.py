@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #ffadad;
+    animation: cambiarColores 2s infinite alternate;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    display: inline-block;
+    transition: background-color 0.5s;
+    width: 95%;
+  }
+
+  @keyframes cambiarColores {
+    0% {
+        background-color: #ffadad;
+    }
+    25% {
+        background-color: #ffd6a5;
+    }
+    50% {
+        background-color: #caffbf;
+    }
+    75% {
+        background-color: #9bf6ff;
+    }
+    100% {
+        background-color: #ffadad; 
+    }
+}
+  
+  .carta-perfil {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #ccc;
+  }
+  
